@@ -1,0 +1,40 @@
+.header {
+  width: 100%;
+  padding: 15px 0;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.logo span {
+  font-size: 30px;
+  color: orange;
+  font-weight: 600;
+}
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1110px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.listLink {
+  font-size: 22px;
+  color: white;
+  transition: text-decoration 0.3s linear;
+}
+
+.listLink:hover {
+  text-decoration: underline;
+  color: rgb(16, 16, 82);
+}
